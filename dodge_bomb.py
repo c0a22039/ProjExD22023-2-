@@ -96,17 +96,17 @@ def main():
         tmr += 1
         clock.tick(50)
 
-        if tmr==100:
-            vx=15
-            vy=15
+        if tmr==100: #時間経過にともない早くなる
+            vx=20
+            vy=20
         
         if tmr==300:
             vx=30
             vy=30
         
         if tmr==500:
-            vx=50
-            vy=50
+            vx=40
+            vy=40
 
 
 
